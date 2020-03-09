@@ -545,7 +545,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Ident
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
     <script src="assets/js/theme.js"></script>
-    <script src="https://embed.small.chat/TPVHPC5FBGQ535F684.js" async></script>
+    <script type="text/javascript">
+
+        // Smallchat script so I can modify the position, shape, and text
+
+        window.Smallchat = {  config: {"slackTeamId":"TPVHPC5FB","scChannelId":"-LstuIKFW2eO4-nEGMCq","slackChannelId":"GQ535F684","uid":"-Lsth8KZsLzR68vjJFVN","planId":null,"accountCreated":1572926166499},appearance: {"brand_color":"#000000","contact_dismissible":true,"contact_enabled":true,"contact_field_label":"Email","contact_immediately":true,"contact_prompt":"Add your name and email to make sure you see our reply:","contact_reply":"Thanks {{name}}! You'll get a response here or we'll contact you at {{contact}}.","custom_css":"#Smallchat .Message-slack .Message_content {\n    background-color:grey;\n}\n#Smallchat .Message-client .Message_content {\n    background-color:#5eb0e5;\n}","hide_logo":false,"hide_team_icon":false,"launcher_pos":"right","launcher_prompt":"Talk to the Developers","launcher_type":"tab","messenger_blank":"Send a message, and we’ll reply as soon as we can.","messenger_entry":"Send a message...","messenger_prompt":"How can we help you?","name_field_label":"Your Name or Business Name","offline_greeting":"The developers are offline right now but typically respond as soon as they can!","submit_label":"Done","text_color":"#FFFFFF"},behavior: {"avatar_config":0,"timezone":"America/New_York"},}; window.addEventListener('load', function(){var styles = document.createElement('link'); styles.rel = 'stylesheet'; styles.href = 'https://static.small.chat/messenger.css'; document.head.appendChild(styles); var script = document.createElement('script');script.async = true;script.src = 'https://static.small.chat/messenger.js'; document.body.appendChild(script);}, false);
+    </script>
 </body>
 
 </html>
