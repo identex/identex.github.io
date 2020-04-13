@@ -60,9 +60,31 @@
         gtag('config', 'UA-162952636-2');
     </script>
 
+    <!-- Remove the below on release -->
+    <style type="text/css">
+        .myAlert-bottom{
+            position: fixed;
+            bottom: 5px;
+            left:2%;
+            width: 96%;
+            z-index: 999;
+        }
+        .alert{
+            display: none;
+        }
+    </style>
+    <!-- Remove the above on release -->
+
 </head>
 
 <body>
+    <!-- Remove the below on release -->
+    <div class="myAlert-bottom alert alert-danger">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>COVID-19 Update:</strong> Since our service is directly associated with businesses affected by COVID-19 closures, we will be suspending service for the time being. If you'd like to learn more or sign up with us, please email <a href="mailto:contact@identex.co">contact@identex.co</a> for more information.
+    </div>
+    <!-- Remove the above on release -->
+
     <!-- preloader area start -->
     <div id="preloader">
         <div class="spinner"></div>
@@ -566,6 +588,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Ident
     <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
     <script src="assets/js/theme.js"></script>
     <script type="text/javascript">
+
+        // Remove on Release
+        $(".myAlert-bottom").show();
 
         // Smallchat script so I can modify the position, shape, and text
 
