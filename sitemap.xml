@@ -15,7 +15,12 @@
 <url>
   <loc>https://dashboard.identex.co/</loc>
   <lastmod>2020-03-26T21:37:32+00:00</lastmod>
-  <priority>0.95</priority>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://knowledge.identex.co/</loc>
+  <lastmod>2020-10-06T21:37:32+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 
 
